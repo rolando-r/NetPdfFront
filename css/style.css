@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.buttontext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    margin: 0;
+    font-family: 'Gabarito';
+}
+
+.btn {
+    border: none; 
+    color: black; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+        
+  }
+
+.danger {
+background-color: white; 
+border: 2px solid #f44336;} 
+
+.danger:hover {
+background: #da190b; 
+color: white;}
+
+h1{
+    font-family: 'Gabarito';
+    text-align: center;
+}
+
+button {
+    font-family: 'Gabarito';
+}
+.logo {
+    display: block; /* Cambiado a block para evitar espacios verticales innecesarios */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#message {
+    color: #da190b; /* Puedes ajustar el color del mensaje según tus preferencias */
+    margin-top: 10px;
+}
